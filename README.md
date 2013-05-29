@@ -19,16 +19,16 @@ in the .ini style. The script expects (by default) the section
 "[Staging]" (no quotes) to be present, with a list of instance IDs
 underneath this. An example:
 ### instancelist example ###
-[Staging]
-i-1b3456
-i-234c34
+[Staging]  
+i-1b3456  
+i-234c34  
 
 
 ## AWS Access keys ##
 Access keys need to be supplied in a credentials file.
 The file may simply contain, for example:
 ### aws_id file example ###
-AWSAccessKeyId=ATEST2AWS4EXAMPLE12K
-AWSSecretKey=THISISYOURB1GSECrectKey4AWSacc35sExample
+AWSAccessKeyId=ATEST2AWS4EXAMPLE12K  
+AWSSecretKey=THISISYOURB1GSECrectKey4AWSacc35sExample  
 
 
